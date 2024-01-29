@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Project</title>
+    <!-- Use of External CSS-->
+    <link rel="stylesheet" href="ext.css">
+    <!--Use of Internal CSS-->
+    <style>
+        img{
+            border-radius: 100%;
+            height: 250px;
+            margin-right: 50px;
+            float: left;
+        }
+        button{
+            background-color: #d7eeeb;
+            float:right;
+            border:0;
+            color:white;
+            padding: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+
+    <!-- Navigation Bar -->
+    <table style="width: 93.5%; margin: auto; background-image: url('port3.png');height:120px;border-radius: 10px;margin-top: 30px;">
+        <!--Use of Inline CSS for table -->
+        <tr>
+            <td align="center">
+                <h1><b>PORTFOLIO</b></h1>
+            </td>   
+            <!-- Navigation Links (use of hyperlinks) -->
+            <td align="center">
+                <a href="#About" style="text-decoration:none" class="navfont">About</a>
+            </td>
+            <td>||</td>
+            <td align="center">
+                <a href="#Education" style="text-decoration:none" class="navfont">Education</a>
+            </td>
+            <td>||</td>
+            <td align="center">
+                <a href="#Projects" style="text-decoration:none" class="navfont">Projects</a>
+            </td>
+            <td>||</td>
+            <td align="center">
+                <a href="#Skills" style="text-decoration:none" class="navfont">Skills</a>
+            </td>
+            <td>||</td>
+            <td align="center">
+                <a href="#Hobbies" style="text-decoration:none" class="navfont">Hobbies</a>
+            </td>
+        </tr>
+    </table>
+</head>
+
+<body style="background-color: white">
+    <!--About-->
+    <div id="About" style="background-image: url(port1.png);">
+        <p class="headfont">About Me</p>
+   
+        <table style="border:0;width:100%">
+            <tr>
+                <td >
+                    <img src="Vidhathri1.jpeg"  alt="me/">
+                </td>
+                <td>
+                    <article>
+                        Welcome to my portfolio.<br>
+                        <aside align="left">
+                            <font face="Verdana" size="4"> <i>"Turning Ideas into Reality, Byte by Byte."</i></font>
+                        </aside>
+                        I am a passionate computer science student.I am a highly motivated Computer Science
+                        student passionate about Web development, with a strong foundation in algorithms and problem-solving.
+                        I thrive in collaborative environments and am always eager to learn and adapt to new technologies.
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Education -->
+    <div id="Education" style="height:400px;background-image: url('port3.png');">
+        <p class="headfont">Education</p>
+        <img src="Vidhathri.jpeg" alt="me/" style="float:right;border-radius: 80%;">
+        <article>
+            <ul>
+                <li>
+                    <font face="Verdana" size="5" color="black">
+                        Bachelor in Computer Science<br>
+                    </font>
+                    <font face="Verdana" size="4" color="black">
+                        <i>Vellore Institute of Technology<br>
+                        Vellore, Tamil Nadu, India</i><br>
+                    </font>
+                    <font face="Verdana" size="3" color="black">
+                        <b>Graduation Year:</b> 2026<br>
+                        <b>GPA:</b> 9.02
+                    </font>
+                </li>
+            </ul>
+              
+        </article>
+   
+    </div>
+
+    <!-- Projects -->
+    <div id="Projects" style="border:0;height:300px;;background-image: url('port2.png');">
+        <p class="headfont">Projects</p>
+        <article>
+            <ul>
+                <li>Currently involved in a project to make a portfolio using HTML.</li>
+            </ul>
+        </article>
+    </div>
+
+    <!--Skills-->
+    <div id="Skills" style="border:0;background-image: url('port4.png');   ">
+        <p class="headfont">Skills</p>
+        <article>
+            <ul>
+                <li><em>Coding Skills</em>
+                    <ul>
+                        <li>Languages: Python, Java, C/C++</li>
+                        <li>Web Programming: HTML(basic)</li>
+                        <li>Tools: GIT, VSCode</li>
+                    </ul>
+                <li><em>Certifications</em>
+                    <ul>
+                        <li>Python Certification<sub><i>Coursera</i></sub></li>
+                        <li>Public Speaking<sub><i>NPTEL</i></sub></li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </div>
+
+    <!--Hobbies-->
+    <div id="Hobbies" style="background-image: url(port3.png);height:500px">
+        <p class="headfont">Hobbies</p>
+        <img src="hobby1.png" style="float: left;">
+        <article>
+            Music<br>
+            Baking<br>
+            <!--Using Image as a link-->
+            <a href="https://www.instagram.com/sketch_.ie/" target="_blank">
+                <img src="hobby3.png" style="float:right">
+            </a>
+            Sketching<br><br>
+            <img src="hobby2.png">
+            <br><br><br><br><br><br><br><br>
+            <sub style="float: right;font-size: 13px;">Click on the picture to see my sketches</sub>
+            
+        </article>
+        
+    </div>
+</body>
+<a href="extra.html">
+    <button >
+        Click here to learn about the page.
+    </button>
+</a>
+
+<footer>
+    <!--Contact-->
+        <table id="Contact" width="100%" style="background-color: white;height:40px;">
+            <tr>
+                <td>    
+                    <font face="Verdana" size="4" color="black" align="center">
+                    Contact info
+                    </font> 
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <a href="https://www.linkedin.com/in/vidhathri-pabba-b85180275/" style="text-decoration:none" target="_blank">
+                        <p class="cfont">Linkedin</p>
+                    </a>
+                </td>
+                <td>
+                    |
+                </td>
+                <td width="33%">
+                    <a href="mailto:pabba.vidhathri2022@vitstudent.ac.in" style="text-decoration:none">
+                        <p class="cfont">Mail</p>                    
+                    </a>
+                </td>
+                <td>
+                    |
+                </td>
+                <td width="33%">
+                    <p class="cfont">Phone:8340857885</p>                
+                </td>
+            </tr>
+        </table>
+       
+</footer>
+
+</html>
+<!--
+    src code, write all tags(html and CSS),Use all three css;screen recording
+-->
